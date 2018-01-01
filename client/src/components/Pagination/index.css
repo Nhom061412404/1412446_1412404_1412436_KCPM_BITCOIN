@@ -1,0 +1,33 @@
+.marika-pagination {
+    display: inline-block;
+    list-style: none;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.marika-pagination li {
+    float: left;
+    cursor: pointer;
+}
+
+.marika-pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.marika-pagination a.active {
+    background-color: #00BCD4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.marika-pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}

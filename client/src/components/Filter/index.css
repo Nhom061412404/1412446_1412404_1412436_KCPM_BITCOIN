@@ -1,0 +1,14 @@
+.search-condition {
+    display: flex;
+    justify-content: space-around;
+}
+
+.splash {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.search-action {
+    display: flex;
+    justify-content: flex-end;
+}
